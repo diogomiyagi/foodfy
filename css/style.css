@@ -12,8 +12,9 @@ body {
 
 header,
 main {
-  max-width: 940px;
+  max-width: 960px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .menu {
@@ -32,16 +33,17 @@ nav {
   gap: 30px;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   font-size: 16px;
   color: #111111;
 }
-nav a:hover{
-  border-bottom:1px solid #FBDFDB;
+
+nav a:hover {
+  border-bottom: 1px solid #FBDFDB;
 }
 
-.ativo{
+.ativo {
   font-weight: 700;
 }
 
@@ -93,8 +95,8 @@ h1 {
 
 .cards {
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* grid-template-columns: repeat(3, 1fr); */
   gap: 20px;
 }
 
@@ -126,4 +128,29 @@ footer {
   color: #999999;
   text-align: center;
   padding: 23px 0;
+}
+
+/* resposividade!! */
+@media only screen and (max-width: 991px) {
+
+  .banner {
+    background: #FBDFDB;
+    border-radius: 30px;
+    border-radius: 30px;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    padding: 0 60px;
+    gap: 0;
+  }
+
+  .info-banner {
+    padding: 60px 0 0 0;
+  }
+
+  .banner img {
+    padding: 20px 0 0;
+    margin: 0 auto;
+  }
 }
