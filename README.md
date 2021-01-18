@@ -1,4 +1,4 @@
-Demo: https://diogomiaguy.github.io/foodfy/receitas.html
+Demo: https://diogomiaguy.github.io/foodfy/index.html
 
 # -> em desenvolvimento
 
