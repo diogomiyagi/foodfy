@@ -131,7 +131,7 @@ footer {
 }
 
 /* resposividade!! */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 768px) {
 
   .banner {
     background: #FBDFDB;
