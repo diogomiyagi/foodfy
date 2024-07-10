@@ -1,6 +1,6 @@
 ## Desafio: Construindo Foodfy (Fase 2)
 
-[Demo Foodfy](https://diogomiaguy.github.io/foodfy/index.html)
+[Demo Foodfy](https://diogomiyagi.github.io/foodfy/index.html)
 
 <img src="img/screenshot.png">
 
